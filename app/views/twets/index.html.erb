@@ -1,0 +1,18 @@
+<h1 class="twet_title">つぶやき一覧</h1>
+<p><%= notice %></p>
+<div class="container">
+  <div class="form_content">
+    <table class="content">
+    <tr>
+      <th class="twet_content_character">内容</th>
+    </tr>
+    <% @twets.each do |twet| %>
+      <tr>
+        <td class="twet_content"><%= twet.content %></td>
+        <td><button type="button" class="btn btn-primary"><%= link_to "編集", edit_twet_path(twet.id),data: { confirm: '本当に編集していいですか？' } %></button></td>
+        <td><button type="button" class="btn btn-danger"><%= link_to '削除', twet_path(twet.id), method: :delete,data: { confirm: '本当に削除していいですか？' } %></button></td>
+      </tr>
+    <% end %>
+    </table>
+  </div>
+</div>

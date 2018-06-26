@@ -1,0 +1,81 @@
+// Place all the styles related to the twets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+header {
+  background-color: #00FFFF;
+  height:9rem;
+  font-size:2rem;
+  color:#FFF;
+}
+ul.menu {
+  float: left;
+}
+.menu li {
+  float: left;
+  width: auto;
+}
+.menu li  {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  bottom: 0;
+  background-color: #00FFFF;
+  display: table;
+}
+.footer p {
+  font-size: 2rem;
+  color: #FFF;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.twet_title{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.twet_content{
+  padding-top:2rem;
+  font-size:2rem;
+  padding-left:10rem;
+}
+.twet_content_character{
+  padding-top: 2rem;
+  font-size: 6rem;
+  padding-left: 20rem;
+}
+.title_home{
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 10rem;
+}
+a{
+  color:white;
+}
+.container{
+  margin-bottom: 300px;
+}
+.content{
+  padding-left: 100rem;
+}
+table.content{
+  padding-left: 5rem;
+}
+.form_content{
+  text-align: center;
+  margin-left: 180px;
+}
