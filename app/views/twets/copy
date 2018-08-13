@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+    <header>
+      <div class="container">
+      <nav>
+        <ul class="menu clearix" "nav nav-pills nav-stacked">
+           <li role="presentation" "active"><%=link_to "HOME", home_path %></li>
+           <li role="presentation"><%=link_to "つぶやき一覧", twets_path %></li>
+           <li role="presentation"><%=link_to "新規投稿", new_twet_path %></li>
+          </ul>
+      </nav>
+    </header>
+       <body>
+         <%= yield %>
+          <article></article>
+       </body>
+
+       <footer class="footer"><p>May Kaito Nakazaki</p></footer>
+     </div>
+</html>
+
+<h1 class="title_home">Twets HOME</h1>

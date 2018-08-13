@@ -7,6 +7,9 @@ html {
 }
 body {
   height: 100%;
+  background-image: url('iphone-3579242_640.jpg');
+  display: block;
+  background-size:100% 100%;
 }
 header {
   background-color: #00FFFF;
@@ -78,4 +81,29 @@ table.content{
 .form_content{
   text-align: center;
   margin-left: 180px;
+  color: #FFF;
+}
+.navbar-default{
+  background-color: #00FFFF;
+}
+img{
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sentence{
+  background-color: #CCFFFF;
+  padding: 80px;
+  padding-bottom: 185px;
+}
+.sentence h1{
+  text-align: center;
+}
+.sentence p{
+  text-align: center;
+}
+.form-content{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
 }
