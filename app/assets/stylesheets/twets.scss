@@ -10,6 +10,18 @@ body {
   background-image: image-url('iphone-3579242_640.jpg');
   display: block;
   background-size:100% 100%;
+  position: relative;
+}
+.filter{
+
+  height: 100%;
+  // position: absolute;
+  background-color: rgba(0,0,0,0.3);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	// content: ' ';
 }
 header {
   background-color: #00FFFF;
@@ -50,6 +62,8 @@ footer{
     text-align: center;
     padding-top: 2rem;
     font-size: 2rem;
+    color: white;
+    margin-top: 0;
 }
 .twet_content{
   padding-top:2rem;
@@ -106,4 +120,55 @@ img{
   text-align: center;
   font-size: 3rem;
   color: white;
+}
+.form_user{
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  padding-top: 8rem;
+  margin-top: 0;
+}
+.form_theme{
+  padding-top: 6rem;
+}
+.form_theme{
+  text-align: center;
+  color:white;
+  margin-top: 0;
+}
+.container{
+  text-align: center;
+  color:white;
+}
+
+li{
+    list-style:none;
+}
+ul{
+    padding:0;
+}
+.form_submit{
+  padding-top: 4rem;
+  color:black;
+}
+.name{
+  width:100px;
+}
+.form_login{
+  text-align: center;
+}
+.twet_form{
+  color:white;
+}
+.caution{
+  color:white;
+}
+.form_text{
+  color:black;
+}
+.twet_contain{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 2.3rem;
+    color: white;
 }

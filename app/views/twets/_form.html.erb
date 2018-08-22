@@ -10,12 +10,14 @@
       </ul>
     </div>
   <% end %>
-
-      <div class="twet_title">新規作成</div>
-      <div class="twet_title">
-        <%= form.label :本文 %>
-        <%= form.text_field :content %>
+<div class="container">
+    <ul class="row">
+      <div class="twet_contain">
+        <li class="col-sm-12 col-md-3">新規作成</li>
+        <li class="col-sm-12 col-md-3"><%= form.label :本文 %></li>
+        <li class="col-sm-12 col-md-3 form_text"><%= form.text_field :content %></li>
+        <li class="col-sm-12 col-md-3 form_text"><%= form.submit %></li>
       </div>
-      <div class="twet_title"><%= form.submit %></div>
       <% end %>
+</div>
 </body>
